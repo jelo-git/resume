@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap');
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header>p {
+    margin: 0;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.name-and-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 900;
+}
+
+.name-and-desc p {
+    margin: 0;
+    font-weight: 300;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: end;
+}
+
+.contact div {
+    padding: 1.5px;
+}
+
+i {
+    text-align: center;
+    width: 16px;
+    margin-left: 10px;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.body>div {
+    padding: 10px;
+}
+
+h2 {
+    margin: 12px 0 0 0;
+    font-weight: 700;
+}
+
+h3,
+h4 {
+    margin: 0;
+    font-weight: 700;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #333;
+    width: 120%;
+}
+
+ul {
+    margin: 0;
+}
+
+
+.left hr {
+    transform: translate(-20%);
+}
+
+.left {
+    flex: 6;
+}
+
+
+.right {
+    flex: 4;
+}
+
+.right h4 {
+    margin: 2px 0;
+}
+
+.year {
+    font-weight: 300;
+}
+
+.edu {
+    padding: 10px;
+}
+
+.cats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: black;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 2px 6px;
+    color: white;
+    margin: 2px 3px;
+    font-size: 14px;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: end;
+    margin: 20px;
+    bottom: 0;
+    font-size: small;
+    font-weight: 300;
+    opacity: 0.9;
+}
